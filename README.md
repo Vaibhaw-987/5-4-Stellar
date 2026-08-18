@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> 
 
 # 🌌 LuminaDex
 ### Concentrated Liquidity Market Maker (CLMM) DEX on Stellar Soroban
