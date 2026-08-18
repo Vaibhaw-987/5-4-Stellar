@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { fetchSpotPrices, fetchMarket24h, type Market24h } from "@/lib/marketData";
+import { fetchSpotPrices, fetchMarket24h, type Market24h } from "@/lib/marketData"; 
 
 /** Live spot prices (Coinbase → CoinGecko → Binance). Refreshes every 30s. */
 export function useSpotPrices() {
