@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 
 import { useState, useEffect } from "react";
 import { simulateContractRead, addressToScVal, i32ToScVal, bigintToU128 } from "@/lib/stellar"; 
