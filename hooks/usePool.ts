@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { simulateContractRead, parseSlot0, parseU128 } from "@/lib/stellar";
+import { simulateContractRead, parseSlot0, parseU128 } from "@/lib/stellar"; 
 import { POOL_ADDRESS } from "@/lib/stellar/contracts";
 import { sqrtPriceX64ToPrice } from "@/lib/math";
 import { fetchSpotPrices } from "@/lib/marketData";
