@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext } from "react";
-import { useStellarWallet, UseStellarWallet } from "@/hooks/use-stellar-wallet";
+import { useStellarWallet, UseStellarWallet } from "@/hooks/use-stellar-wallet"; 
 
 const WalletContext = createContext<UseStellarWallet | undefined>(undefined);
 
