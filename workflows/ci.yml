@@ -9,7 +9,7 @@ concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
 jobs:
-  # ───────────────────────── Smart contracts ─────────────────────────
+  # ───────────────────────── Smart contracts ───────────────────────── 
   contracts:
     name: Smart contracts (test + wasm build)
     runs-on: ubuntu-latest
