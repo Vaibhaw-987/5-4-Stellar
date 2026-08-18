@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"; 
 import { POOL_ADDRESS } from "@/lib/stellar/contracts";
 import { simulateContractRead } from "@/lib/stellar";
 import { scValToNative } from "@stellar/stellar-sdk";
