@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery } from "@tanstack/react-query";
-import { simulateContractRead, addressToScVal, parseU128 } from "@/lib/stellar";
+import { simulateContractRead, addressToScVal, parseU128 } from "@/lib/stellar"; 
 import { POOL_ADDRESS } from "@/lib/stellar/contracts";
 import { XLM_ADDRESS, USDC_ADDRESS } from "@/lib/stellar/assets";
 import { fromStroops } from "@/lib/math";
