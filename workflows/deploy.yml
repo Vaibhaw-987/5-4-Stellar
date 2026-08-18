@@ -2,7 +2,7 @@ name: CD
 
 # Deploys on every push to main. Contracts deploy first; the frontend deploy
 # depends on it so the UI always ships against a known-good contract build.
-on:
+on: 
   push:
     branches: [main]
   workflow_dispatch:
