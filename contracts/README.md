@@ -1,7 +1,7 @@
 # StellarSwap Contracts — Concentrated Liquidity DEX on Soroban
 
 A Uniswap-V3-style **Concentrated Liquidity Market Maker (CLMM)** implemented for
-Stellar **Soroban**. Liquidity providers supply capital within custom price
+Stellar **Soroban**. Liquidity providers supply capital within custom price 
 ranges (ticks); swappers trade against the active liquidity at the current tick.
 
 ## Workspace layout
