@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 
 export function AnimatedSphere() {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null); 
   const frameRef = useRef(0);
 
   useEffect(() => {
