@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { POOL_ADDRESS } from "@/lib/stellar/contracts";
 import { simulateContractRead } from "@/lib/stellar";
 import { scValToNative } from "@stellar/stellar-sdk";
-import { Loader2, CheckCircle2, AlertTriangle, Cpu } from "lucide-react";
+import { Loader2, CheckCircle2, AlertTriangle, Cpu } from "lucide-react"; 
 
 export default function ContractStatus() {
   const [status, setStatus] = useState<"loading" | "active" | "error">("loading");
