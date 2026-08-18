@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
-
+ 
 const pools = [
   { pair: "XLM / USDC", category: "Standard pair", fee: "0.30%" },
   { pair: "USDC / EURC", category: "Stable pair", fee: "0.01%" },
