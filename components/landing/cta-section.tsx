@@ -9,7 +9,7 @@ import { AnimatedTetrahedron } from "./animated-tetrahedron";
 export function CtaSection() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 }); 
 
   useEffect(() => {
     const observer = new IntersectionObserver(
