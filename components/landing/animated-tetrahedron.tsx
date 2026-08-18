@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 
 export function AnimatedTetrahedron() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const frameRef = useRef(0);
+  const frameRef = useRef(0); 
 
   useEffect(() => {
     const canvas = canvasRef.current;
